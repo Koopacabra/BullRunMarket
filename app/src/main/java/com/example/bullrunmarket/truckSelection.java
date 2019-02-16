@@ -72,9 +72,9 @@ public class truckSelection extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.signOutLink) {
-            // Handles sign out
+            // handles sign out
         } else if (id == R.id.aboutLink) {
-            // Handles link to about
+            // handles link to about activity
         } //else if (id == R.id.nav_slideshow) {}
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
