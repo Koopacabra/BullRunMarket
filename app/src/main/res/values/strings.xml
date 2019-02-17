@@ -15,4 +15,6 @@
     <string name="pizza">Pizza Time</string>
     <string name="tacos">Ricos Tacos</string>
     <string name="freepikIcons">Icon made by Freepik from www.flaticon.com</string>
+    <string name="brmlogo">brmlogo</string>
+    <string name="select_truck">Select a Food Truck&#8230;</string>
 </resources>

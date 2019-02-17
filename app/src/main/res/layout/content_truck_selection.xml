@@ -37,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:scaleType="centerCrop"
+                android:background="#0000"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
@@ -99,6 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:scaleType="centerCrop"
+                android:background="#0000"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
@@ -162,6 +164,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:scaleType="centerCrop"
+                android:background="#0000"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
@@ -225,6 +228,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:scaleType="centerCrop"
+                android:background="#0000"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
@@ -274,5 +278,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.5045181" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="184dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/select_truck"
+        app:layout_constraintBottom_toTopOf="@+id/cardView_delight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
